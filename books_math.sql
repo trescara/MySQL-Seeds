@@ -15,3 +15,7 @@ GROUP BY released_year;
 
 SELECT author_fname, author_lname, AVG(pages)
 FROM books GROUP BY author_lname, author_fname;
+
+SELECT released_year, AVG(title)
+FROM books
+GROUP BY released_year;
